@@ -1,0 +1,47 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity tb_DetecteurCaractere is
+end tb_DetecteurCaractere;
+
+architecture tb_architecture of tb_DetecteurCaractere is
+    signal data_in_tb : STD_LOGIC_VECTOR(15 downto 0);
+    signal detect_tb : STD_LOGIC;
+
+    component DetecteurCaractere
+        Port ( data_in : in STD_LOGIC_VECTOR(15 downto 0);
+               detect : out STD_LOGIC);
+    end component;
+
+begin
+
+    uut: DetecteurCaractere port map(data_in_tb, detect_tb);
+
+    process
+    begin
+        -- Test 1
+        data_in_tb <= "0010000000000000";
+        wait for 10 ns;
+        assert detect_tb = '1' report "Test 1 failed" severity error;
+
+        -- Test 2
+        data_in_tb <= "0000000000001000";
+        wait for 10 ns;
+        assert detect_tb = '1' report "Test 2 failed" severity error;
+
+        -- Test 3
+        data_in_tb <= "0000000000010000";
+        wait for 10 ns;
+        assert detect_tb = '1' report "Test 3 failed" severity error;
+
+        -- Test 4
+        data_in_tb <= "0000000000000000";
+        wait for 10 ns;
+        assert detect_tb = '0' report "Test 4 failed" severity error;
+
+        wait;
+    end process;
+
+end tb_architecture;

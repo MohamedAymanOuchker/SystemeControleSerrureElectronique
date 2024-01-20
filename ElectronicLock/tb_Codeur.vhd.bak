@@ -1,0 +1,67 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity tb_Codeur is
+end tb_Codeur;
+
+architecture tb_architecture of tb_Codeur is
+    signal clk_tb, reset_tb : STD_LOGIC;
+    signal data_in_tb : STD_LOGIC_VECTOR(15 downto 0);
+    signal data_s_tb : STD_LOGIC_VECTOR(3 downto 0);
+
+    component Codeur
+        Port ( clk : in STD_LOGIC;
+               reset : in STD_LOGIC;
+               data_in : in STD_LOGIC_VECTOR(15 downto 0);
+               data_s : out STD_LOGIC_VECTOR(3 downto 0));
+    end component;
+
+begin
+
+    uut: Codeur port map(clk_tb, reset_tb, data_in_tb, data_s_tb);
+
+    process
+    begin
+        -- Initialize signals
+        clk_tb <= '0';
+        reset_tb <= '1';
+        data_in_tb <= (others => '0');
+
+        wait for 10 ns;
+
+        -- Deassert reset
+        reset_tb <= '0';
+
+        wait for 10 ns;
+
+        -- Apply rising edge on clock
+        clk_tb <= not clk_tb;
+
+        wait for 10 ns;
+
+        -- Test 1
+        data_in_tb <= "0010000000000000";
+        wait for 10 ns;
+        assert data_s_tb = "0000" report "Test 1 failed" severity error;
+
+        -- Test 2
+        data_in_tb <= "0000000000000010";
+        wait for 10 ns;
+        assert data_s_tb = "0010" report "Test 2 failed" severity error;
+
+        -- Test 3
+        data_in_tb <= "1000000000000000";
+        wait for 10 ns;
+        assert data_s_tb = "1101" report "Test 3 failed" severity error;
+
+        -- Test 4
+        data_in_tb <= "0000000010000000";
+        wait for 10 ns;
+        assert data_s_tb = "1011" report "Test 3 failed" severity error;
+
+        wait;
+    end process;
+
+end tb_architecture;

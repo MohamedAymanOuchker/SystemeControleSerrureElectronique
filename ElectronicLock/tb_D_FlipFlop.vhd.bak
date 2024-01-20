@@ -1,0 +1,59 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity tb_D_FlipFlop is
+end tb_D_FlipFlop;
+
+architecture tb_architecture of tb_D_FlipFlop is
+    signal D_tb, clk_tb, reset_tb, Enable_tb : STD_LOGIC;
+    signal Q_tb : STD_LOGIC;
+
+    component D_FlipFlop
+        Port ( D : in STD_LOGIC;
+               clk : in STD_LOGIC;
+               reset : in STD_LOGIC;
+               Enable : in STD_LOGIC;
+               Q : out STD_LOGIC);
+    end component;
+
+begin
+
+    uut: D_FlipFlop port map(D_tb, clk_tb, reset_tb, Enable_tb, Q_tb);
+
+    process
+    begin
+        -- Initialize signals
+        D_tb <= '0';
+        clk_tb <= '0';
+        reset_tb <= '1';
+        Enable_tb <= '0';
+
+        wait for 10 ns;
+
+        -- Deassert reset
+        reset_tb <= '0';
+
+        wait for 10 ns;
+
+        -- Apply rising edge on clock
+        clk_tb <= not clk_tb;
+
+        wait for 10 ns;
+
+        -- Enable the flip-flop
+        Enable_tb <= '1';
+
+        -- Apply data input
+        D_tb <= '1';
+
+        wait for 10 ns;
+
+        -- Disable the flip-flop
+        Enable_tb <= '0';
+
+        wait;
+    end process;
+
+end tb_architecture;

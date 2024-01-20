@@ -1,0 +1,44 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity tb_Comparator_4bits is
+end tb_Comparator_4bits;
+
+architecture tb_architecture of tb_Comparator_4bits is
+    signal input1_tb : STD_LOGIC_VECTOR(3 downto 0);
+    signal input2_tb : STD_LOGIC_VECTOR(3 downto 0);
+    signal equal_tb : STD_LOGIC;
+
+    component Comparator_4bits
+        Port ( input1 : in STD_LOGIC_VECTOR(3 downto 0);
+               input2 : in STD_LOGIC_VECTOR(3 downto 0);
+               equal : out STD_LOGIC);
+    end component;
+
+begin
+
+    -- Unité de test 1
+    input1_tb <= "1100"; -- 12 en binaire
+    input2_tb <= "1100"; -- 12 en binaire
+    uut1: Comparator_4bits port map(input1_tb, input2_tb, equal_tb);
+    process
+    begin
+        wait for 10 ns;
+        assert equal_tb = '1' report "Test 1 failed" severity error;
+        wait;
+    end process;
+
+    -- Unité de test 2
+    input1_tb <= "1100"; -- 12 en binaire
+    input2_tb <= "1010"; -- 10 en binaire
+    uut2: Comparator_4bits port map(input1_tb, input2_tb, equal_tb);
+    process
+    begin
+        wait for 10 ns;
+        assert equal_tb = '0' report "Test 2 failed" severity error;
+        wait;
+    end process;
+
+end tb_architecture;

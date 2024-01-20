@@ -1,0 +1,538 @@
+# Compile of Codeur.vhd was successful.
+# Compile of Comparator_4bits.vhd was successful.
+# Compile of Comparator_16bits.vhd was successful.
+# Compile of D_FlipFlop.vhd was successful.
+# Compile of DetecteurCaractere.vhd was successful.
+# Compile of ElectronicLock.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of Register_4bits.vhd was successful.
+# Compile of tb_Codeur.vhd was successful.
+# Compile of tb_Comparator_4bits.vhd was successful.
+# Compile of tb_Comparator_16bits.vhd was successful.
+# Compile of tb_D_FlipFlop.vhd was successful.
+# Compile of tb_DetecteurCaractere.vhd was successful.
+# Compile of tb_Memory.vhd was successful.
+# Compile of tb_Register_4bits.vhd failed with 3 errors.
+# 15 compiles, 1 failed with 3 errors.
+# Compile of Codeur.vhd was successful.
+# Compile of Comparator_4bits.vhd was successful.
+# Compile of Comparator_16bits.vhd was successful.
+# Compile of D_FlipFlop.vhd was successful.
+# Compile of DetecteurCaractere.vhd was successful.
+# Compile of ElectronicLock.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of Register_4bits.vhd was successful.
+# Compile of tb_Codeur.vhd was successful.
+# Compile of tb_Comparator_4bits.vhd was successful.
+# Compile of tb_Comparator_16bits.vhd was successful.
+# Compile of tb_D_FlipFlop.vhd was successful.
+# Compile of tb_DetecteurCaractere.vhd was successful.
+# Compile of tb_Memory.vhd was successful.
+# Compile of tb_Register_4bits.vhd failed with 1 errors.
+# 15 compiles, 1 failed with 1 error.
+# Compile of Codeur.vhd was successful.
+# Compile of Comparator_4bits.vhd was successful.
+# Compile of Comparator_16bits.vhd was successful.
+# Compile of D_FlipFlop.vhd was successful.
+# Compile of DetecteurCaractere.vhd was successful.
+# Compile of ElectronicLock.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of Register_4bits.vhd was successful.
+# Compile of tb_Codeur.vhd was successful.
+# Compile of tb_Comparator_4bits.vhd was successful.
+# Compile of tb_Comparator_16bits.vhd was successful.
+# Compile of tb_D_FlipFlop.vhd was successful.
+# Compile of tb_DetecteurCaractere.vhd was successful.
+# Compile of tb_Memory.vhd was successful.
+# Compile of tb_Register_4bits.vhd was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.tb_codeur
+# vsim -gui work.tb_codeur 
+# Start time: 17:35:10 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_codeur(tb_architecture)
+# Loading work.codeur(behavioral)
+add wave -position insertpoint  \
+sim:/tb_codeur/clk_tb
+add wave -position insertpoint  \
+sim:/tb_codeur/reset_tb
+add wave -position insertpoint  \
+sim:/tb_codeur/data_in_tb
+add wave -position insertpoint  \
+sim:/tb_codeur/data_s_tb
+run
+run
+run
+run
+run
+run
+# Compile of tb_Codeur.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_codeur(tb_architecture)
+run
+run
+run
+quit -sim
+vsim -gui work.tb_memory
+# End time: 17:39:03 on Jan 11,2024, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_memory 
+# Start time: 17:39:03 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_memory(tb_architecture)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/clk_tb
+add wave -position insertpoint  \
+sim:/tb_memory/reset_tb
+add wave -position insertpoint  \
+sim:/tb_memory/detect_tb
+add wave -position insertpoint  \
+sim:/tb_memory/data_s_tb
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig_tb
+run
+run
+run
+run
+# Break key hit
+quit -sim
+# End time: 17:40:26 on Jan 11,2024, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_memory
+# vsim -gui work.tb_memory 
+# Start time: 17:40:51 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_memory(tb_architecture)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/clk_tb
+add wave -position insertpoint  \
+sim:/tb_memory/reset_tb
+add wave -position insertpoint  \
+sim:/tb_memory/detect_tb
+add wave -position insertpoint  \
+sim:/tb_memory/data_s_tb
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig_tb
+run
+run
+run
+quit -sim
+# End time: 17:56:25 on Jan 11,2024, Elapsed time: 0:15:34
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_memory
+# vsim -gui work.tb_memory 
+# Start time: 19:45:42 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_memory(tb_architecture)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/clk_tb
+add wave -position insertpoint  \
+sim:/tb_memory/reset_tb
+add wave -position insertpoint  \
+sim:/tb_memory/detect_tb
+add wave -position insertpoint  \
+sim:/tb_memory/data_s_tb
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig_tb
+run
+run
+run
+run
+# Compile of tb_Memory.vhd was successful.
+quit -sim
+vsim -gui work.tb_memory
+# End time: 19:48:22 on Jan 11,2024, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_memory 
+# Start time: 19:48:22 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_memory(tb_architecture)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/reset_tb
+add wave -position insertpoint  \
+sim:/tb_memory/clk_tb
+add wave -position insertpoint  \
+sim:/tb_memory/clk_tb
+add wave -position insertpoint  \
+sim:/tb_memory/reset_tb
+add wave -position insertpoint  \
+sim:/tb_memory/reset_tb
+add wave -position insertpoint  \
+sim:/tb_memory/detect_tb
+add wave -position insertpoint  \
+sim:/tb_memory/data_s_tb
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig_tb
+run
+# ** Error: Test 1 failed
+#    Time: 40 ns  Iteration: 0  Instance: /tb_memory
+# ** Error: Test 2 failed
+#    Time: 50 ns  Iteration: 0  Instance: /tb_memory
+# ** Error: Test 3 failed
+#    Time: 60 ns  Iteration: 0  Instance: /tb_memory
+# Compile of tb_Memory.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading ieee.numeric_std(body)
+# Loading work.tb_memory(bench)
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_memory/clk_tb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_memory/reset_tb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_memory/detect_tb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_memory/data_s_tb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_memory/code_sig_tb'. 
+quit -sim
+# End time: 19:51:49 on Jan 11,2024, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_memory
+# vsim -gui work.tb_memory 
+# Start time: 19:52:12 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_memory(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/clk
+add wave -position insertpoint  \
+sim:/tb_memory/reset
+add wave -position insertpoint  \
+sim:/tb_memory/detect
+add wave -position insertpoint  \
+sim:/tb_memory/data_s
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig
+run
+run
+quit -sim
+# End time: 19:58:34 on Jan 11,2024, Elapsed time: 0:06:22
+# Errors: 0, Warnings: 1
+# Compile of tb_Memory.vhd was successful.
+vsim -gui work.tb_memory
+# vsim -gui work.tb_memory 
+# Start time: 19:59:09 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_memory(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/clk
+add wave -position insertpoint  \
+sim:/tb_memory/reset
+add wave -position insertpoint  \
+sim:/tb_memory/reset
+add wave -position insertpoint  \
+sim:/tb_memory/detect
+add wave -position insertpoint  \
+sim:/tb_memory/data_s
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig
+add wave -position insertpoint  \
+sim:/tb_memory/stop_the_clock
+add wave -position insertpoint  \
+sim:/tb_memory/clock_period
+run
+# ** Error: Test 1 failed
+#    Time: 20 ns  Iteration: 0  Instance: /tb_memory
+# ** Error: Test 2 failed
+#    Time: 30 ns  Iteration: 0  Instance: /tb_memory
+# ** Error: Test 3 failed
+#    Time: 40 ns  Iteration: 0  Instance: /tb_memory
+run
+quit -sim
+# End time: 20:01:06 on Jan 11,2024, Elapsed time: 0:01:57
+# Errors: 3, Warnings: 2
+# Compile of tb_Comparator_16bits.vhd was successful.
+vsim -gui work.tb_comparator_16bits
+# vsim -gui work.tb_comparator_16bits 
+# Start time: 20:06:03 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_comparator_16bits(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.comparator_16bits(behavioral)
+# Loading work.comparator_4bits(behavioral)
+add wave -position insertpoint  \
+sim:/tb_comparator_16bits/input1
+add wave -position insertpoint  \
+sim:/tb_comparator_16bits/fixed_key
+add wave -position insertpoint  \
+sim:/tb_comparator_16bits/ouverture
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_comparator_16bits/uut
+# ** Error: Test failed
+#    Time: 10 ns  Iteration: 0  Instance: /tb_comparator_16bits
+quit -sim
+# End time: 20:07:15 on Jan 11,2024, Elapsed time: 0:01:12
+# Errors: 1, Warnings: 3
+# Compile of tb_Comparator_16bits.vhd was successful.
+vsim -gui work.tb_comparator_16bits
+# vsim -gui work.tb_comparator_16bits 
+# Start time: 20:08:26 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_comparator_16bits(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.comparator_16bits(behavioral)
+# Loading work.comparator_4bits(behavioral)
+add wave -position insertpoint  \
+sim:/tb_comparator_16bits/input1
+add wave -position insertpoint  \
+sim:/tb_comparator_16bits/fixed_key
+add wave -position insertpoint  \
+sim:/tb_comparator_16bits/ouverture
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_comparator_16bits/uut
+# ** Error: Test failed when values are not equal
+#    Time: 10 ns  Iteration: 0  Instance: /tb_comparator_16bits
+quit -sim
+# End time: 20:09:45 on Jan 11,2024, Elapsed time: 0:01:19
+# Errors: 1, Warnings: 3
+# Compile of tb_D_FlipFlop.vhd was successful.
+vsim -gui work.tb_d_flipflop
+# vsim -gui work.tb_d_flipflop 
+# Start time: 20:18:41 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_d_flipflop(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.d_flipflop(behavioral)
+add wave -position insertpoint  \
+sim:/tb_d_flipflop/D
+add wave -position insertpoint  \
+sim:/tb_d_flipflop/clk
+add wave -position insertpoint  \
+sim:/tb_d_flipflop/reset
+add wave -position insertpoint  \
+sim:/tb_d_flipflop/Enable
+add wave -position insertpoint  \
+sim:/tb_d_flipflop/Enable
+add wave -position insertpoint  \
+sim:/tb_d_flipflop/Q
+run
+# ** Error: Test case 1 failed
+#    Time: 20 ns  Iteration: 0  Instance: /tb_d_flipflop
+# ** Error: Test case 2 failed
+#    Time: 30 ns  Iteration: 0  Instance: /tb_d_flipflop
+quit -sim
+# End time: 20:20:42 on Jan 11,2024, Elapsed time: 0:02:01
+# Errors: 2, Warnings: 2
+# Compile of tb_Register_4bits.vhd failed with 1 errors.
+# Load canceled
+# Compile of tb_Register_4bits.vhd failed with 4 errors.
+# Compile of tb_Register_4bits.vhd was successful.
+vsim -gui work.tb_register_4bits
+# vsim -gui work.tb_register_4bits 
+# Start time: 20:33:38 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_register_4bits(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.register_4bits(behavioral)
+add wave -position insertpoint  \
+sim:/tb_register_4bits/D
+add wave -position insertpoint  \
+sim:/tb_register_4bits/clk
+add wave -position insertpoint  \
+sim:/tb_register_4bits/clk
+add wave -position insertpoint  \
+sim:/tb_register_4bits/reset
+add wave -position insertpoint  \
+sim:/tb_register_4bits/D
+add wave -position insertpoint  \
+sim:/tb_register_4bits/Q
+add wave -position insertpoint  \
+sim:/tb_register_4bits/Enable
+run
+# ** Error: Test case 1 failed
+#    Time: 20 ns  Iteration: 0  Instance: /tb_register_4bits
+# ** Error: Test case 2 failed
+#    Time: 30 ns  Iteration: 0  Instance: /tb_register_4bits
+# ** Error: Test case 4 failed
+#    Time: 50 ns  Iteration: 0  Instance: /tb_register_4bits
+add wave -position insertpoint  \
+sim:/tb_register_4bits/clock_period
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Error: Test case 1 failed
+#    Time: 20 ns  Iteration: 0  Instance: /tb_register_4bits
+# ** Error: Test case 2 failed
+#    Time: 30 ns  Iteration: 0  Instance: /tb_register_4bits
+# ** Error: Test case 4 failed
+#    Time: 50 ns  Iteration: 0  Instance: /tb_register_4bits
+quit -sim
+# End time: 20:39:18 on Jan 11,2024, Elapsed time: 0:05:40
+# Errors: 3, Warnings: 1
+# Compile of DetecteurCaractere.vhd was successful.
+# Compile of tb_DetecteurCaractere.vhd was successful.
+vsim -gui work.tb_detecteurcaractere
+# vsim -gui work.tb_detecteurcaractere 
+# Start time: 20:44:12 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_detecteurcaractere(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.detecteurcaractere(behavioral)
+add wave -position insertpoint  \
+sim:/tb_detecteurcaractere/data_in
+add wave -position insertpoint  \
+sim:/tb_detecteurcaractere/detect
+run
+# ** Error: Test case 2 failed
+#    Time: 20 ns  Iteration: 0  Instance: /tb_detecteurcaractere
+quit -sim
+# End time: 20:46:41 on Jan 11,2024, Elapsed time: 0:02:29
+# Errors: 1, Warnings: 3
+# Compile of tb_Codeur.vhd was successful.
+vsim -gui work.tb_codeur
+# vsim -gui work.tb_codeur 
+# Start time: 21:10:26 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_codeur(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.codeur(behavioral)
+add wave -position insertpoint  \
+sim:/tb_codeur/clk
+add wave -position insertpoint  \
+sim:/tb_codeur/reset
+add wave -position insertpoint  \
+sim:/tb_codeur/data_in
+add wave -position insertpoint  \
+sim:/tb_codeur/data_s
+run
+quit -sim
+# End time: 21:12:50 on Jan 11,2024, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 2
+# Load canceled
+# Compile of tb_Comparator_4bits.vhd was successful.
+vsim -gui work.tb_comparator_4bits
+# vsim -gui work.tb_comparator_4bits 
+# Start time: 21:19:11 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_comparator_4bits(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.comparator_4bits(behavioral)
+add wave -position insertpoint  \
+sim:/tb_comparator_4bits/input1
+add wave -position insertpoint  \
+sim:/tb_comparator_4bits/input2
+add wave -position insertpoint  \
+sim:/tb_comparator_4bits/equal
+run
+quit -sim
+# End time: 21:20:39 on Jan 11,2024, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 2
+# Compile of tb_Register_4bits.vhd was successful.
+vsim -gui work.tb_register_4bits
+# vsim -gui work.tb_register_4bits 
+# Start time: 21:24:20 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_register_4bits(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.register_4bits(behavioral)
+add wave -position insertpoint  \
+sim:/tb_register_4bits/clk
+add wave -position insertpoint  \
+sim:/tb_register_4bits/reset
+add wave -position insertpoint  \
+sim:/tb_register_4bits/Enable
+add wave -position insertpoint  \
+sim:/tb_register_4bits/D
+add wave -position insertpoint  \
+sim:/tb_register_4bits/Q
+run
+quit -sim
+# End time: 23:10:47 on Jan 11,2024, Elapsed time: 1:46:27
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_memory
+# vsim -gui work.tb_memory 
+# Start time: 23:11:35 on Jan 11,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_memory(bench)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.memory(behavioral)
+add wave -position insertpoint  \
+sim:/tb_memory/clk
+add wave -position insertpoint  \
+sim:/tb_memory/reset
+add wave -position insertpoint  \
+sim:/tb_memory/detect
+add wave -position insertpoint  \
+sim:/tb_memory/data_s
+add wave -position insertpoint  \
+sim:/tb_memory/code_sig
+run
+# ** Error: Test 1 failed
+#    Time: 20 ns  Iteration: 0  Instance: /tb_memory
+# ** Error: Test 2 failed
+#    Time: 30 ns  Iteration: 0  Instance: /tb_memory
+# ** Error: Test 3 failed
+#    Time: 40 ns  Iteration: 0  Instance: /tb_memory
+run
+# End time: 20:14:30 on Jan 12,2024, Elapsed time: 21:02:55
+# Errors: 3, Warnings: 1

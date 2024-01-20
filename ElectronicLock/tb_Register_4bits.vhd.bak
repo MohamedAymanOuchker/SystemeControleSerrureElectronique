@@ -1,0 +1,89 @@
+library IEEE;
+use IEEE.Std_logic_1164.all;
+use IEEE.Numeric_Std.all;
+
+entity tb_Register_4bits is
+end;
+
+architecture bench of tb_Register_4bits is
+
+  component Register_4bits
+      Port ( D : in STD_LOGIC_VECTOR(3 downto 0);
+             clk : in STD_LOGIC;
+             reset : in STD_LOGIC;
+             Enable : in STD_LOGIC;
+             Q : out STD_LOGIC_VECTOR(3 downto 0));
+  end component;
+
+  signal D: STD_LOGIC_VECTOR(3 downto 0) := (others => '0');
+  signal clk: STD_LOGIC;
+  signal reset: STD_LOGIC;
+  signal Enable: STD_LOGIC;
+  signal Q: STD_LOGIC_VECTOR(3 downto 0);
+
+  constant clock_period: time := 10 ns;
+  signal stop_the_clock: boolean;
+
+begin
+
+  uut: Register_4bits port map ( D      => D,
+                                 clk    => clk,
+                                 reset  => reset,
+                                 Enable => Enable,
+                                 Q      => Q );
+
+  stimulus: process
+  begin
+  
+    -- Initialization code
+
+    reset <= '1';
+    wait for 5 ns;
+    reset <= '0';
+    wait for 5 ns;
+
+    -- Test bench stimulus code
+
+-- Test case 1: Enable the register and provide input
+Enable <= '1';
+D <= "1010"; -- Set your input value
+wait for 10 ns;
+assert Q(3) = '1' and Q(2) = '0' and Q(1) = '1' and Q(0) = '0'
+  report "Test case 1 failed" severity error;
+
+-- Test case 2: Disable the register
+Enable <= '0';
+D <= "0110"; -- Change the input value
+wait for 10 ns;
+assert Q(3) = '1' and Q(2) = '0' and Q(1) = '1' and Q(0) = '0'
+  report "Test case 2 failed" severity error;
+
+-- Test case 3: Reset the register
+reset <= '1';
+wait for 10 ns;
+assert Q(3) = '0' and Q(2) = '0' and Q(1) = '0' and Q(0) = '0'
+  report "Test case 3 failed" severity error;
+
+-- Test case 4: Enable the register with a different input
+reset <= '0';
+Enable <= '1';
+D <= "1111"; -- Set a different input value
+wait for 10 ns;
+assert Q(3) = '1' and Q(2) = '1' and Q(1) = '1' and Q(0) = '1'
+  report "Test case 4 failed" severity error;
+
+    stop_the_clock <= true;
+    wait;
+  end process;
+
+  clocking: process
+  begin
+    while not stop_the_clock loop
+      clk <= not clk after clock_period / 2;
+      wait for clock_period;
+    end loop;
+    wait;
+  end process;
+
+end bench;
+

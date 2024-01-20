@@ -1,0 +1,836 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Ayman/Downloads/projetvhdl/projetvhdl
+Ecodeur
+Z0 w1704991356
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 29
+Z5 dC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock
+Z6 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Codeur.vhd
+Z7 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Codeur.vhd
+l0
+L6 1
+Vb9aPG5[2jf@>;f;<kR:OD1
+!s100 :X?PKS0gB0[1_m0`e5]OU3
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1704994489
+!i10b 1
+Z10 !s108 1704994489.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Codeur.vhd|
+Z12 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Codeur.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 6 codeur 0 22 b9aPG5[2jf@>;f;<kR:OD1
+!i122 29
+l16
+L13 53
+V8?l^J[?]VSS2G1GQc9=4[2
+!s100 Rc:>>MYS@9TASO;aTk=8F1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecomparator_16bits
+Z15 w1704988943
+R1
+R2
+R3
+R4
+!i122 31
+R5
+Z16 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_16bits.vhd
+Z17 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_16bits.vhd
+l0
+L6 1
+VP]1Qd8?]38N]:_[]iLWcR2
+!s100 b5jTS4fZ_iXb[75CPjLCA2
+R8
+32
+Z18 !s110 1704994490
+!i10b 1
+Z19 !s108 1704994490.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_16bits.vhd|
+Z21 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_16bits.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 17 comparator_16bits 0 22 P]1Qd8?]38N]:_[]iLWcR2
+!i122 31
+l22
+L12 30
+VOlD1RklXFehUNX[FTD<Ef0
+!s100 _a8;NdSP;PH7^fR6^B[422
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Ecomparator_4bits
+Z22 w1704988933
+R1
+R2
+R3
+R4
+!i122 30
+R5
+Z23 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_4bits.vhd
+Z24 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_4bits.vhd
+l0
+L6 1
+Vo[nzDiEgJE9?3cG_W]cdY3
+!s100 R;G3>Nl23e_odRBa^3K]o2
+R8
+32
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_4bits.vhd|
+Z26 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Comparator_4bits.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 16 comparator_4bits 0 22 o[nzDiEgJE9?3cG_W]cdY3
+!i122 30
+l13
+L12 4
+VOonS5S>`ON6PK@?eKTeTK2
+!s100 l@hS3mlBoK3K=@k^5<d:T3
+R8
+32
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R13
+R14
+Ed_flipflop
+Z27 w1704988777
+R1
+R2
+R3
+R4
+!i122 32
+R5
+Z28 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/D_FlipFlop.vhd
+Z29 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/D_FlipFlop.vhd
+l0
+L6 1
+V0LI]hOkWf@j:8BIEeF9U41
+!s100 =TZE:RPQ@1PdeLfanV1F;0
+R8
+32
+R18
+!i10b 1
+R19
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/D_FlipFlop.vhd|
+Z31 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/D_FlipFlop.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 10 d_flipflop 0 22 0LI]hOkWf@j:8BIEeF9U41
+!i122 32
+l16
+Z32 L14 17
+VJo^a3:[BaeQ4=I:@W<d921
+!s100 AXz9?TJ`Z0Q2WY6LQT^0<2
+R8
+32
+R18
+!i10b 1
+R19
+R30
+R31
+!i113 1
+R13
+R14
+Edetecteurcaractere
+Z33 w1705005724
+R1
+R2
+R3
+R4
+!i122 54
+R5
+Z34 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\DetecteurCaractere.vhd
+Z35 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\DetecteurCaractere.vhd
+l0
+L6 1
+VRYa3j0G<IFECDSh9o]DRU1
+!s100 YKdUiA9j0YYaO:ofZmgmQ0
+R8
+32
+Z36 !s110 1705005829
+!i10b 1
+Z37 !s108 1705005829.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\DetecteurCaractere.vhd|
+Z39 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\DetecteurCaractere.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 18 detecteurcaractere 0 22 RYa3j0G<IFECDSh9o]DRU1
+!i122 54
+l13
+L11 16
+VH;Wk6;?T2e2BRDYKD_hMj0
+!s100 9?`nelGz^F3]O_Bk52`o]3
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R13
+R14
+Eelectroniclock
+Z40 w1704991367
+R1
+R2
+R3
+R4
+!i122 34
+R5
+Z41 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/ElectronicLock.vhd
+Z42 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/ElectronicLock.vhd
+l0
+L6 1
+Vk=GjRoK1o>P<;I=VIcK8i0
+!s100 LSS=71[OWVe>HgCP2ziR@3
+R8
+32
+Z43 !s110 1704994491
+!i10b 1
+Z44 !s108 1704994491.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/ElectronicLock.vhd|
+Z46 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/ElectronicLock.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 14 electroniclock 0 22 k=GjRoK1o>P<;I=VIcK8i0
+!i122 34
+l47
+L15 47
+VVImC]?lELSIIjYK?<2T=42
+!s100 SJ6FzYbmY?CfP^5gE=fW[0
+R8
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R13
+R14
+Ememory
+Z47 w1704988882
+R1
+R2
+R3
+R4
+!i122 35
+R5
+Z48 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Memory.vhd
+Z49 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Memory.vhd
+l0
+L6 1
+VoRJGGnV7eX0HeRE^KWkiR1
+!s100 dB=1AGY<SCkkYNZagh4Il1
+R8
+32
+Z50 !s110 1704994492
+!i10b 1
+R44
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Memory.vhd|
+Z52 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Memory.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 oRJGGnV7eX0HeRE^KWkiR1
+!i122 35
+l16
+L14 24
+V7P`Ql<l50W5[l>9kMU@Xn3
+!s100 75XTT08aR^R=IYbj3LK5^2
+R8
+32
+R50
+!i10b 1
+R44
+R51
+R52
+!i113 1
+R13
+R14
+Eregister_4bits
+Z53 w1704988825
+R1
+R2
+R3
+R4
+!i122 36
+R5
+Z54 8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Register_4bits.vhd
+Z55 FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Register_4bits.vhd
+l0
+L6 1
+V0OHW>IF@Jm3M;jb=dPGA52
+!s100 EiXX8X?cG_LhaC^R7eK^L0
+R8
+32
+R50
+!i10b 1
+Z56 !s108 1704994492.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Register_4bits.vhd|
+Z58 !s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/Register_4bits.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 14 register_4bits 0 22 0OHW>IF@Jm3M;jb=dPGA52
+!i122 36
+l16
+R32
+VQHXBXbIlR_RJGaUgX^GCo3
+!s100 Yc0TIAA8OS[1ZSH0INnb=1
+R8
+32
+R50
+!i10b 1
+R56
+R57
+R58
+!i113 1
+R13
+R14
+Etb_codeur
+Z59 w1705007399
+Z60 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+R4
+!i122 56
+R5
+Z61 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Codeur.vhd
+Z62 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Codeur.vhd
+l0
+L5 1
+Vec;EBTXP:Bd=D4:hZX7Ri2
+!s100 RS@;aMn7PNfiEkQ`hKUV]1
+R8
+32
+Z63 !s110 1705007407
+!i10b 1
+Z64 !s108 1705007407.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Codeur.vhd|
+Z66 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Codeur.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+DEx4 work 9 tb_codeur 0 22 ec;EBTXP:Bd=D4:hZX7Ri2
+!i122 56
+l25
+L8 61
+V0c:OoS[9mo:EcPn>=U]5h2
+!s100 oZZ:z2OE3?;MHL85IVSoC2
+R8
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 9 tb_codeur 0 22 SX_KAX768TZG239ZQ8C4Z2
+!i122 44
+l21
+L9 59
+VfRohk;nRb[BUm@i7:T:m40
+!s100 3^`G4aIIHRoBXPd5CSYm>2
+R8
+32
+!s110 1704994690
+!i10b 1
+!s108 1704994690.000000
+R65
+R66
+!i113 1
+R13
+R14
+w1704994676
+Etb_comparator_16bits
+Z67 w1705003669
+R60
+R3
+R4
+!i122 49
+R5
+Z68 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_16bits.vhd
+Z69 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_16bits.vhd
+l0
+L5 1
+VR1FINe]SC<[R]_9`Nf10[3
+!s100 <4YSH7=m^5dH:GiY:bZ5>2
+R8
+32
+Z70 !s110 1705003677
+!i10b 1
+Z71 !s108 1705003677.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_16bits.vhd|
+Z73 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_16bits.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+DEx4 work 20 tb_comparator_16bits 0 22 R1FINe]SC<[R]_9`Nf10[3
+!i122 49
+l20
+L8 38
+VLIGLO`lZg8m1^jUJmd8ib0
+!s100 fTGoHMCTbh4G6>IW;TUi61
+R8
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 20 tb_comparator_16bits 0 22 aSPJBljILocIjDS@[fV5]0
+!i122 39
+l20
+Z74 L9 36
+V3O;X4D?`<MlVE1j[CTDSF1
+!s100 dcB:`SR];EZGG=Kl=Q4GC2
+R8
+32
+Z75 !s110 1704994493
+!i10b 1
+Z76 !s108 1704994493.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_16bits.vhd|
+!s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_16bits.vhd|
+!i113 1
+R13
+R14
+FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_16bits.vhd
+w1704993693
+8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_16bits.vhd
+Etb_comparator_4bits
+Z77 w1705007922
+R60
+R3
+R4
+!i122 57
+R5
+Z78 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_4bits.vhd
+Z79 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_4bits.vhd
+l0
+L5 1
+VWX3nejmVYD6=]i9fGWcc`3
+!s100 5_>Z]eoU4gVzNa`Bh04FX2
+R8
+32
+Z80 !s110 1705007934
+!i10b 1
+Z81 !s108 1705007934.000000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_4bits.vhd|
+Z83 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Comparator_4bits.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+DEx4 work 19 tb_comparator_4bits 0 22 WX3nejmVYD6=]i9fGWcc`3
+!i122 57
+l20
+L8 42
+VcTdUYgfMohQi;@Vzj]k`Y2
+!s100 TZN;PB4gdIDOi5CLf6S0h1
+R8
+32
+R80
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 19 tb_comparator_4bits 0 22 Oz?HmD?5[Ag5HO^7:[YSj2
+!i122 38
+l20
+R74
+V2l>Eo7g[ODcS?@GbG`ZB80
+!s100 7T_2c:97@b@HSB>0mGk=W1
+R8
+32
+R50
+!i10b 1
+R56
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_4bits.vhd|
+!s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_4bits.vhd|
+!i113 1
+R13
+R14
+FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_4bits.vhd
+w1704993739
+8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Comparator_4bits.vhd
+Etb_d_flipflop
+Z84 w1705004298
+R60
+R3
+R4
+!i122 50
+R5
+Z85 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_D_FlipFlop.vhd
+Z86 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_D_FlipFlop.vhd
+l0
+L5 1
+VCM=OaB0CG27>IGnkGf5`^2
+!s100 6km_XO]i>X_0Q0A`ko[LA0
+R8
+32
+Z87 !s110 1705004308
+!i10b 1
+Z88 !s108 1705004306.000000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_D_FlipFlop.vhd|
+Z90 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_D_FlipFlop.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+DEx4 work 13 tb_d_flipflop 0 22 CM=OaB0CG27>IGnkGf5`^2
+!i122 50
+l27
+L8 76
+V<7_BU0XkhK4LA5=LHkYb52
+!s100 0glzmg`VG@HXJhn4FRZES1
+R8
+32
+R87
+!i10b 1
+R88
+R89
+R90
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 13 tb_d_flipflop 0 22 cb9IA2?EXmP@mDFSKIjRN2
+!i122 40
+l21
+L9 51
+V8Po:i`Z@c9NE^WAOWKli12
+!s100 Pi<_W20a]bmAZjJZ[gj>W0
+R8
+32
+R75
+!i10b 1
+R76
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_D_FlipFlop.vhd|
+!s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_D_FlipFlop.vhd|
+!i113 1
+R13
+R14
+FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_D_FlipFlop.vhd
+w1704993942
+8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_D_FlipFlop.vhd
+Etb_detecteurcaractere
+Z91 w1705005821
+R60
+R3
+R4
+!i122 55
+R5
+Z92 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_DetecteurCaractere.vhd
+Z93 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_DetecteurCaractere.vhd
+l0
+L5 1
+Vo2o6[ARI9HHa:lSXiOj883
+!s100 BS:6I@8V7>hIL<0n]g7i32
+R8
+32
+Z94 !s110 1705005832
+!i10b 1
+Z95 !s108 1705005832.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_DetecteurCaractere.vhd|
+Z97 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_DetecteurCaractere.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+DEx4 work 21 tb_detecteurcaractere 0 22 o2o6[ARI9HHa:lSXiOj883
+!i122 55
+l18
+L8 41
+VFVLEJWWHP2f9GCg960^@D3
+!s100 V7e4kKaWV5O@i`?Ea;EAN2
+R8
+32
+R94
+!i10b 1
+R95
+R96
+R97
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 21 tb_detecteurcaractere 0 22 iV0=H;V2SC4XhHdj5^fDc2
+!i122 41
+l18
+L9 39
+VPbI26CROP=DIO]4f`RL7B0
+!s100 _Xe`oh3?YSL1Ik7=9Bhk=1
+R8
+32
+Z98 !s110 1704994494
+!i10b 1
+R76
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_DetecteurCaractere.vhd|
+!s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_DetecteurCaractere.vhd|
+!i113 1
+R13
+R14
+FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_DetecteurCaractere.vhd
+w1704994025
+8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_DetecteurCaractere.vhd
+Etb_memory
+Z99 w1705003123
+R60
+R3
+R4
+!i122 47
+R5
+Z100 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Memory.vhd
+Z101 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Memory.vhd
+l0
+L5 1
+Vkh>[^8E>K4dJ:AB9QBC130
+!s100 LIT_nN@O?eYH`bmG_Nd8M0
+R8
+32
+Z102 !s110 1705003130
+!i10b 1
+Z103 !s108 1705003130.000000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Memory.vhd|
+Z105 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Memory.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+DEx4 work 9 tb_memory 0 22 kh>[^8E>K4dJ:AB9QBC130
+!i122 47
+l27
+L8 73
+Vdz9f7n9Wm6=3^iA`WcH`f0
+!s100 >=aQWe4:BK@FPS8XZ]kGz3
+R8
+32
+R102
+!i10b 1
+R103
+R104
+R105
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 9 tb_memory 0 22 OJ?>oBAZ8;7:b7<eXi3hY1
+!i122 45
+l22
+L9 66
+V@TjEWbk;4KVB5Fl9=SggS1
+!s100 TS]e2gAi;URf1z7d6:Q7c2
+R8
+32
+!s110 1705002478
+!i10b 1
+!s108 1705002478.000000
+R104
+R105
+!i113 1
+R13
+R14
+w1704995850
+Etb_register_4bits
+Z106 w1705008203
+R60
+R3
+R4
+!i122 58
+R5
+Z107 8C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Register_4bits.vhd
+Z108 FC:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Register_4bits.vhd
+l0
+L5 1
+VlOW14EmDGlFJmDB@UiMIS2
+!s100 LMGENLCnX`T^Uc?_dFQaD3
+R8
+32
+Z109 !s110 1705008237
+!i10b 1
+Z110 !s108 1705008237.000000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Register_4bits.vhd|
+Z112 !s107 C:\Users\Ayman\Desktop\projetvhdl\ElectronicLock\tb_Register_4bits.vhd|
+!i113 1
+R13
+R14
+Abench
+R60
+R3
+R4
+Z113 DEx4 work 17 tb_register_4bits 0 22 lOW14EmDGlFJmDB@UiMIS2
+!i122 58
+l27
+L8 62
+VB_>ITndB@==?NaC4RzCKL3
+!s100 RIC>f1NgJ<P?X:53D_;C]2
+R8
+32
+R109
+!i10b 1
+R110
+R111
+R112
+!i113 1
+R13
+R14
+Atb_architecture
+R1
+R2
+R3
+R4
+DEx4 work 17 tb_register_4bits 0 22 `8jMKE4<eU^iGN^_SKL]10
+!i122 43
+l22
+L9 54
+VB8R5nDX[k`ZTUza[C>A6;2
+!s100 MXbn:=feAV0M`KL[n7V[73
+R8
+32
+R98
+!i10b 1
+!s108 1704994494.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Register_4bits.vhd|
+!s107 C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Register_4bits.vhd|
+!i113 1
+R13
+R14
+FC:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Register_4bits.vhd
+w1704994486
+8C:/Users/Ayman/Desktop/projetvhdl/ElectronicLock/tb_Register_4bits.vhd
